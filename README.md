@@ -31,18 +31,29 @@ This project demonstrates the setup of a complete **SOC (Security Operations Cen
 ## 🏗️ Lab Architecture
 
 ```
-[ KALI LINUX ]                          [ WINDOWS SERVER 2019 ]
-(Control & SIEM)                         (Victim & Telemetry)
-
-+------------------+    Port 9997    +-------------------------+
-|  Splunk Server   | <-------------- |  Splunk Univ. Forwarder |
-|  (Indexer + Web) |                 |  Sysmon (Event Logging) |
-+------------------+                 |  Atomic Red Team (ART)  |
-|  Atomic Red Team | -- Attack  -->  +-------------------------+
-|  (ART Scripts)   |    Emulate
-+------------------+
-
-         ISOLATED VM NETWORK (HOST-ONLY / NAT)
++----------------------------------------------------------------------+
+|                     ISOLATED HOST-ONLY NETWORK                       |
+|                                                                      |
+|   +----------------------+           +---------------------------+   |
+|   |     KALI LINUX        |           |   WINDOWS SERVER 2019     |   |
+|   |  (Control & SIEM)    |           |  (Victim & Telemetry)     |   |
+|   |                      |           |                           |   |
+|   |  +----------------+  |<--Port----|  +---------------------+  |   |
+|   |  |    Splunk      |  |   9997    |  | Splunk Universal    |  |   |
+|   |  |  Enterprise    |  |           |  |    Forwarder        |  |   |
+|   |  | (Indexer+WebUI)|  |           |  +---------------------+  |   |
+|   |  +----------------+  |           |                           |   |
+|   |                      |           |  +---------------------+  |   |
+|   |  +----------------+  |--Attack-->|  |       Sysmon        |  |   |
+|   |  | Atomic Red Team|  |  Emulate  |  |   (Event Logging)   |  |   |
+|   |  |  (ART Scripts) |  |           |  +---------------------+  |   |
+|   |  +----------------+  |           |                           |   |
+|   +----------------------+           |  +---------------------+  |   |
+|                                      |  |  Atomic Red Team    |  |   |
+|                                      |  |  (Attack Toolkit)   |  |   |
+|                                      |  +---------------------+  |   |
+|                                      +---------------------------+   |
++----------------------------------------------------------------------+
 ```
 
 **Kali Linux** → Splunk Indexer (SIEM)
