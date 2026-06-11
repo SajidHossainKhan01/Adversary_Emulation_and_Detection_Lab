@@ -60,7 +60,7 @@ This project demonstrates the setup of a complete **SOC (Security Operations Cen
 
 **Windows Server** → Victim Machine + Forwarder + Sysmon + ART
 
-![Lab Architecture](images/Archi.png)
+![Lab Architecture](images/Architecture.png)
 
 ---
 
