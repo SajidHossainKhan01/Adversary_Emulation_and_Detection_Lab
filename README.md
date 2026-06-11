@@ -87,7 +87,7 @@ This project demonstrates the setup of a complete **SOC (Security Operations Cen
 
 Download the Splunk Universal Forwarder (UF) from the official Splunk website: https://www.splunk.com/en_us/download/universal-forwarder.html
 
-![Download UF](images/Download UF.png)
+![Download UF](images/DownloadUF.png)
 
 Select the correct Windows version (64-bit) and download.
 
