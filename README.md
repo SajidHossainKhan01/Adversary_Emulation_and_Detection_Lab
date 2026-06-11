@@ -1,16 +1,15 @@
-# Splunk-Atomic-Red-Team-ART-Lab-Setup
-
-> This is an assignment for **CSE 802: Information Security and Cryptography**, University of Dhaka — 2026, PMICS Batch 6.
-> **Submitted To:** Mukul Ahmed
-
 <div align="center">
 
-## 🛡️ Splunk & Atomic Red Team (ART) Lab Setup
+# 🛡️ Adversary Emulation & Detection Lab
+
+**Course:** CSE 802 — Information Security & Cryptography  
+**Program:** PMICS Batch 6 | University of Dhaka | 2026  
+**Submitted To:** Mukul Ahmed
 
 [![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK-red?style=flat-square)](https://attack.mitre.org/)
 [![Splunk](https://img.shields.io/badge/Splunk-Enterprise-green?style=flat-square)](https://www.splunk.com)
-[![Sysmon](https://img.shields.io/badge/Sysmon-v15-blue?style=flat-square)](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
-[![ART](https://img.shields.io/badge/Atomic_Red_Team-v2.3.0-orange?style=flat-square)](https://github.com/redcanaryco/atomic-red-team)
+[![Sysmon](https://img.shields.io/badge/Sysmon-Enabled-blue?style=flat-square)](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+[![Atomic Red Team](https://img.shields.io/badge/Atomic_Red_Team-v2.3.0-orange?style=flat-square)](https://github.com/redcanaryco/atomic-red-team)
 
 </div>
 
@@ -32,18 +31,29 @@ This project demonstrates the setup of a complete **SOC (Security Operations Cen
 ## 🏗️ Lab Architecture
 
 ```
-[ KALI LINUX ]                          [ WINDOWS SERVER 2019 ]
-(Control & SIEM)                         (Victim & Telemetry)
-
-+------------------+    Port 9997    +-------------------------+
-|  Splunk Server   | <-------------- |  Splunk Univ. Forwarder |
-|  (Indexer + Web) |                 |  Sysmon (Event Logging) |
-+------------------+                 |  Atomic Red Team (ART)  |
-|  Atomic Red Team | -- Attack  -->  +-------------------------+
-|  (ART Scripts)   |    Emulate
-+------------------+
-
-         ISOLATED VM NETWORK (HOST-ONLY / NAT)
++----------------------------------------------------------------------+
+|                     ISOLATED HOST-ONLY NETWORK                       |
+|                                                                      |
+|   +----------------------+           +---------------------------+   |
+|   |     KALI LINUX        |           |   WINDOWS SERVER 2019     |   |
+|   |  (Control & SIEM)    |           |  (Victim & Telemetry)     |   |
+|   |                      |           |                           |   |
+|   |  +----------------+  |<--Port----|  +---------------------+  |   |
+|   |  |    Splunk      |  |   9997    |  | Splunk Universal    |  |   |
+|   |  |  Enterprise    |  |           |  |    Forwarder        |  |   |
+|   |  | (Indexer+WebUI)|  |           |  +---------------------+  |   |
+|   |  +----------------+  |           |                           |   |
+|   |                      |           |  +---------------------+  |   |
+|   |  +----------------+  |--Attack-->|  |       Sysmon        |  |   |
+|   |  | Atomic Red Team|  |  Emulate  |  |   (Event Logging)   |  |   |
+|   |  |  (ART Scripts) |  |           |  +---------------------+  |   |
+|   |  +----------------+  |           |                           |   |
+|   +----------------------+           |  +---------------------+  |   |
+|                                      |  |  Atomic Red Team    |  |   |
+|                                      |  |  (Attack Toolkit)   |  |   |
+|                                      |  +---------------------+  |   |
+|                                      +---------------------------+   |
++----------------------------------------------------------------------+
 ```
 
 **Kali Linux** → Splunk Indexer (SIEM)
