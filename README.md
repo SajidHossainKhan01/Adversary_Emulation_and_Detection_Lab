@@ -60,7 +60,7 @@ This project demonstrates the setup of a complete **SOC (Security Operations Cen
 
 **Windows Server** → Victim Machine + Forwarder + Sysmon + ART
 
-![Lab Architecture](images/Archi.png)
+![Lab Architecture](images/Architecture.png)
 
 ---
 
@@ -71,6 +71,14 @@ This project demonstrates the setup of a complete **SOC (Security Operations Cen
 | Kali Linux | 4 | 4 | NAT |
 | Windows Server 2019 | 2 | 4 | NAT |
 
+> 💡 Both VMs must be on the same network. Verify connectivity with `ping` before proceeding.
+
+**Download Links:**
+- VMware Workstation Pro: https://access.broadcom.com/default/ui/v1/signin/
+- Oracle VirtualBox: https://www.virtualbox.org/
+- Kali Linux: https://www.kali.org/get-kali/#kali-platforms
+- Windows Server 2019 (Eval): https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019
+
 ---
 
 # ⚙️ 1. Splunk Universal Forwarder Installation (Windows)
@@ -79,7 +87,7 @@ This project demonstrates the setup of a complete **SOC (Security Operations Cen
 
 Download the Splunk Universal Forwarder (UF) from the official Splunk website: https://www.splunk.com/en_us/download/universal-forwarder.html
 
-![Download UF](images/image1.png)
+![Download UF](images/Download UF.png)
 
 Select the correct Windows version (64-bit) and download.
 
