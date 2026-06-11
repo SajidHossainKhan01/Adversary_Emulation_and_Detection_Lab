@@ -162,7 +162,7 @@ sudo /opt/splunk/bin/splunk start --accept-license
 sudo /opt/splunk/bin/splunk enable boot-start
 ```
 
-![Install Splunk](images/image10.png)
+![Install Splunk](images/InstallSplunk.png)
 
 Verify Splunk service is running properly:
 
