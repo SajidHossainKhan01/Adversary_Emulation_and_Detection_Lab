@@ -223,7 +223,7 @@ Download the Sysmon executable from the official Microsoft Sysinternals page:
 
 Extract the downloaded zip file to `C:\Tools\Sysmon`:
 
-![Sysmon Extracted](images/image16.png)
+![Sysmon Extracted](images/SysmonExtracted.png)
 
 ---
 
