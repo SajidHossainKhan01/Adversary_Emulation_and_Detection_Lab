@@ -233,7 +233,7 @@ Download the Sysmon XML configuration file from Wazuh:
 
 🔗 https://wazuh.com/resources/blog/emulation-of-attack-techniques-and-detection-with-wazuh/sysmonconfig.xml
 
-![Download Config](images/image17.png)
+![Download Config](images/DownloadConfig.png)
 
 Place the XML config file in the same directory as Sysmon (`C:\Tools\Sysmon`):
 
