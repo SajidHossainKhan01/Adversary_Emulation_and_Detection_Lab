@@ -202,7 +202,7 @@ Navigate: **Settings → Forwarding and Receiving → Configure Receiving → Ne
 - Port: `9997`
 - Status: **Enabled**
 
-![Configure Port 9997](images/image15.png)
+![Configure Port 9997](images/ConfigurePort9997.png)
 
 Verify the port is active on Kali:
 
