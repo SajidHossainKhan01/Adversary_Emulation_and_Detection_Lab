@@ -249,7 +249,7 @@ Run the following command in PowerShell **as Administrator**:
 .\Sysmon64.exe -accepteula -i .\sysmonconfig.xml
 ```
 
-![Sysmon Installed](images/image19.png)
+![Sysmon Installed](images/SysmonInstalled.png)
 
 Verify Sysmon is running:
 
