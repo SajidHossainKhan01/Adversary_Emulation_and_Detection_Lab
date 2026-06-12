@@ -151,7 +151,7 @@ renderXml = true
 
 Download Splunk Enterprise on Kali Linux from: https://www.splunk.com
 
-![Download Splunk](images/image9.png)
+![Download Splunk](images/DownloadSplunk.png)
 
 Install Splunk and set up admin credentials for GUI access and management:
 
