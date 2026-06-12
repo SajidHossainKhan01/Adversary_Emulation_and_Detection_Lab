@@ -191,7 +191,7 @@ Navigate: **Settings → Indexes → New Index**
 - Index Name: `wineventlog`
 - Ensure this name matches the `inputs.conf` entry on the Windows machine
 
-![Create Index](images/image14.png)
+![Create Index](images/CreateIndex.png)
 
 ---
 
