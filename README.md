@@ -178,7 +178,7 @@ sudo /opt/splunk/bin/splunk status
 
 Open a browser and navigate to `http://localhost:8000`. Log in with your configured admin credentials.
 
-![Splunk Login](images/image13.png)
+![Splunk Login](images/SplunkLogin.png)
 
 ---
 
