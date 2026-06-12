@@ -170,7 +170,7 @@ Verify Splunk service is running properly:
 sudo /opt/splunk/bin/splunk status
 ```
 
-![Splunk Running](images/image12.png)
+![Splunk Running](images/SplunkRunning.png)
 
 ---
 
