@@ -237,7 +237,7 @@ Download the Sysmon XML configuration file from Wazuh:
 
 Place the XML config file in the same directory as Sysmon (`C:\Tools\Sysmon`):
 
-![Config in Directory](images/image18.png)
+![Config in Directory](images/ConfiginDirectory.png)
 
 ---
 
