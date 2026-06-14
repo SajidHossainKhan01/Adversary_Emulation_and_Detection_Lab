@@ -99,7 +99,7 @@ Select the correct Windows version (64-bit) and download.
 
 Run the installer on the Windows (victim) machine and accept the license agreement to proceed.
 
-![Accept License](images/image3.png)
+![Accept License](images/AcceptLicense.png)
 
 Set a local admin username and password. These credentials are used later for troubleshooting and configuration on the UF client.
 
