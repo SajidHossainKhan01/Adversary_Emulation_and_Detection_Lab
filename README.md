@@ -91,7 +91,7 @@ Download the Splunk Universal Forwarder (UF) from the official Splunk website: h
 
 Select the correct Windows version (64-bit) and download.
 
-![Select Version](images/image2.png)
+![Select Version](images/SelectVersion.png)
 
 ---
 
