@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1853" height="844" alt="SetCredentials" src="https://github.com/user-attachments/assets/35d9449e-e64d-409f-a5e6-5da35cf557ae" /><div align="center">
 
 # 🛡️ Adversary Emulation & Detection Lab
 
@@ -103,7 +103,7 @@ Run the installer on the Windows (victim) machine and accept the license agreeme
 
 Set a local admin username and password. These credentials are used later for troubleshooting and configuration on the UF client.
 
-![Set Credentials](images/image4.png)
+![Set Credentials](images/SetCredentials.png)
 
 ---
 
