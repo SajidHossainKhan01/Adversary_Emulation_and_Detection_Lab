@@ -139,7 +139,7 @@ index = wineventlog
 renderXml = true
 ```
 
-![inputs.conf](images/image8.png)
+![inputs.conf](images/inputsconf.png)
 
 > ⚠️ Ensure the index name (`wineventlog`) exactly matches the index created in Splunk on Kali.
 
