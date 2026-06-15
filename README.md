@@ -119,7 +119,7 @@ Configure the receiving indexer IP: `192.168.65.140` (Kali Splunk Indexer) with 
 
 Complete the UF client installation and configuration.
 
-![Installation Complete](images/image7.png)
+![Installation Complete](images/InstallationComplete.png)
 
 ---
 
