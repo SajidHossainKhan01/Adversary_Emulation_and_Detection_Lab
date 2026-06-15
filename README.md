@@ -115,7 +115,7 @@ Deployment Server configuration is optional for this lab.
 
 Configure the receiving indexer IP: `192.168.65.140` (Kali Splunk Indexer) with default port `9997`.
 
-![Set Indexer IP](images/image6.png)
+![Set Indexer IP](images/SetIndexeIP.png)
 
 Complete the UF client installation and configuration.
 
