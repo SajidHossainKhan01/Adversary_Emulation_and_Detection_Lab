@@ -481,15 +481,7 @@ index=wineventlog (EventCode=4698 OR EventCode=106 OR EventCode=1 OR EventCode=4
 
 **SPL Query on Splunk:**
 
-![T1053.005 SPL](images/T1053_3.png)
-
-**Detected Events:**
-
-![T1053.005 Result 1](images/T1053_5.png)
-
-![T1053.005 Result 2](images/T1053_6.png)
-
-![T1053.005 Result 3](images/T1053_7.png)
+![T1053.005 SPL](images/T1053.005SPL.png)
 
 **Explanation — Sysmon Event ID:**
 
@@ -521,7 +513,7 @@ Invoke-AtomicTest T1218.005 -ShowDetailsBrief
 Invoke-AtomicTest T1218.005 -TestNumbers 3
 ```
 
-![T1218.005 Attack](images/T1218_1.png)
+![T1218.005 Attack](images/T1218.005Attack.png)
 
 **SPL Query:**
 
