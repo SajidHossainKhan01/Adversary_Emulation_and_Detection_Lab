@@ -513,7 +513,7 @@ Invoke-AtomicTest T1218.005 -ShowDetailsBrief
 Invoke-AtomicTest T1218.005 -TestNumbers 3
 ```
 
-![T1218.005 Attack](images/T1218_1.png)
+![T1218.005 Attack](images/T1218.005Attack.png)
 
 **SPL Query:**
 
