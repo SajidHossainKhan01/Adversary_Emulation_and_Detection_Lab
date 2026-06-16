@@ -296,7 +296,7 @@ index=wineventlog
 
 Logs should appear under `index=wineventlog` with Sysmon Event IDs.
 
-![Logs Visible in Splunk](images/image21.png)
+![Logs Visible in Splunk](images/LogsVisibleinSplunk.png)
 
 ---
 
