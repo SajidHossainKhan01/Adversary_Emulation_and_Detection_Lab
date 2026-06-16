@@ -308,7 +308,7 @@ To run ART installations and attack simulations without interference, disable Wi
 
 ![Disable Defender 1](images/DisableDefender1.png)
 
-![Disable Defender 2](images/image23.png)
+![Disable Defender 2](images/DisableDefender2.png)
 
 ---
 
@@ -326,7 +326,7 @@ Download all atomic test definitions:
 Install-AtomicRedTeam -getAtomics -Force
 ```
 
-![ART Installing](images/image24.png)
+![ART Installing](images/ARTInstalling.png)
 
 ![ART Atomics Downloaded](images/image25.png)
 
