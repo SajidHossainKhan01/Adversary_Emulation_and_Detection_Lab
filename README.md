@@ -308,7 +308,7 @@ To run ART installations and attack simulations without interference, disable Wi
 
 ![Disable Defender 1](images/DisableDefender1.png)
 
-![Disable Defender 2](images/image23.png)
+![Disable Defender 2](images/DisableDefender2.png)
 
 ---
 
