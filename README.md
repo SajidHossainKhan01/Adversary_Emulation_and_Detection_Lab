@@ -328,7 +328,7 @@ Install-AtomicRedTeam -getAtomics -Force
 
 ![ART Installing](images/ARTInstalling.png)
 
-![ART Atomics Downloaded](images/image25.png)
+![ART Atomics Downloaded](images/ARTAtomicsDownloaded.png)
 
 All attack configuration files are downloaded locally to `C:\AtomicRedTeam\atomics` — one folder per MITRE technique.
 
