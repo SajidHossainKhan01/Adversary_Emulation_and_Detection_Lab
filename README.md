@@ -456,9 +456,9 @@ Invoke-AtomicTest T1053.005 -ShowDetailsBrief
 Invoke-AtomicTest T1053.005 -TestNumbers 8
 ```
 
-![T1053.005 Attack 1](images/T1053_1.png)
+![T1053.005 Attack 1](images/T1053.005Attack1.png)
 
-![T1053.005 Attack 2](images/T1053_2.png)
+![T1053.005 Attack 2](images/T1053.005Attack2.png)
 
 **SPL Query:**
 
