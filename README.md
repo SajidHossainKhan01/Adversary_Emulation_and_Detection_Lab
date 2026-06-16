@@ -389,7 +389,7 @@ $PSDefaultParameterValues = @{
 Get-Command Invoke-AtomicTest
 ```
 
-![ART Validated](images/image26.png)
+![ART Validated](images/ARTValidated.png)
 
 > ✅ Expected version: **2.3.0**
 
