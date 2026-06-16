@@ -1,5 +1,5 @@
-<img width="1919" height="950" alt="T1003 001SPL" src="https://github.com/user-attachments/assets/9cfacf01-ba1f-4964-a0b2-7aa3bfc7243a" /><div align="center">
-
+<div align="center">
+    
 # 🛡️ Adversary Emulation & Detection Lab
 
 **Course:** CSE 802 — Information Security & Cryptography  
