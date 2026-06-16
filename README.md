@@ -420,7 +420,7 @@ Once the full setup is complete:
 Invoke-AtomicTest T1059.001 -TestNumbers 6
 ```
 
-![Log Monitoring](images/image27.png)
+![Log Monitoring](images/LogMonitoring.png)
 
 Confirm in Splunk:
 
