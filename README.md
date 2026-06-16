@@ -483,14 +483,6 @@ index=wineventlog (EventCode=4698 OR EventCode=106 OR EventCode=1 OR EventCode=4
 
 ![T1053.005 SPL](images/T1053.005SPL.png)
 
-**Detected Events:**
-
-![T1053.005 Result 1](images/T1053_5.png)
-
-![T1053.005 Result 2](images/T1053_6.png)
-
-![T1053.005 Result 3](images/T1053_7.png)
-
 **Explanation — Sysmon Event ID:**
 
 **Sysmon Event ID 1** (Process Creation) is most helpful because it captures the exact `CommandLine` and parent processes where administrative tools like `cmd.exe`, `schtasks.exe`, and `reg.exe` are abused to establish persistence and elevate privileges. Specifically:
