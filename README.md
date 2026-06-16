@@ -306,7 +306,7 @@ Logs should appear under `index=wineventlog` with Sysmon Event IDs.
 
 To run ART installations and attack simulations without interference, disable Windows Defender real-time protection. Otherwise, ART scripts and payloads will be automatically removed or quarantined.
 
-![Disable Defender 1](images/image22.png)
+![Disable Defender 1](images/DisableDefender1.png)
 
 ![Disable Defender 2](images/image23.png)
 
