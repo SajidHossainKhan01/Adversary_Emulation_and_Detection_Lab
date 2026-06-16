@@ -1,4 +1,4 @@
-<div align="center">
+<img width="976" height="505" alt="ForwardServerCheck" src="https://github.com/user-attachments/assets/0b5c1677-8a69-4145-a71e-dcb214a745e7" /><div align="center">
 
 # 🛡️ Adversary Emulation & Detection Lab
 
@@ -275,7 +275,7 @@ Run the following command in the SplunkUniversalForwarder `bin` directory:
 splunk list forward-server
 ```
 
-![Forward Server Check](images/image20.png)
+![Forward Server Check](images/ForwardServerCheck.png)
 
 This confirms:
 - ✅ Active forwarder connection
