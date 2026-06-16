@@ -326,7 +326,7 @@ Download all atomic test definitions:
 Install-AtomicRedTeam -getAtomics -Force
 ```
 
-![ART Installing](images/image24.png)
+![ART Installing](images/ARTInstalling.png)
 
 ![ART Atomics Downloaded](images/image25.png)
 
