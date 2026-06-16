@@ -549,15 +549,6 @@ index=wineventlog (sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operation
 | table Time host user_info Activity EventCode process_name process_info cmdline parent_process is_suspicious mitre_technique
 | sort -_time
 ```
-
-**SPL Query on Splunk:**
-
-![T1218.005 SPL](images/T1218_2.png)
-
-**Detected Events:**
-
-![T1218.005 Result](images/T1218_3.png)
-
 **Explanation — Sysmon Event ID:**
 
 **Sysmon Event ID 1** (Process Creation) is most helpful because it captures the exact `cmdline` and parent processes where `mshta.exe` is abused for defence evasion. Specifically:
