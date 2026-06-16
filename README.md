@@ -748,7 +748,7 @@ Invoke-AtomicTest T1112 -TestNumbers 56
 
 > Tests 38 and 51 completed successfully. Test 56 was partially blocked by Windows Security, but notifications were already suppressed by the previous two tests.
 
-![T1112 Attack](images/T1112_1.png)
+![T1112 Attack](images/T1112Attack.png)
 
 **SPL Query:**
 
