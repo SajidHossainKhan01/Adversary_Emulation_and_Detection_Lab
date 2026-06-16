@@ -664,7 +664,7 @@ Invoke-AtomicTest T1059.001 -ShowDetailsBrief
 Invoke-AtomicTest T1059.001 -TestNumbers 6
 ```
 
-![T1059.001 Attack](images/T1059_1.png)
+![T1059.001 Attack](images/T1059.001Attack.png)
 
 **SPL Query:**
 
