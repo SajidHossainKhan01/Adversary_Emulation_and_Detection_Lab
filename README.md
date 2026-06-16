@@ -800,15 +800,6 @@ index=wineventlog (sourcetype="XmlWinEventLog:Microsoft-Windows-Sysmon/Operation
 | table Time host user_info EventCode EventID process_name process_info parent_process cmdline detection_type is_suspicious Activity technique
 | sort - _time
 ```
-
-**SPL Query on Splunk:**
-
-![T1112 SPL](images/T1112_3.png)
-
-**Detected Events:**
-
-![T1112 Result](images/T1112_2.png)
-
 **Explanation — Sysmon Event ID:**
 
 **Sysmon Event ID 1** (Process Creation) is most helpful because it captures the exact `cmdline` and process details where system tools are abused to modify registry keys for defence evasion. Specifically:
