@@ -704,11 +704,11 @@ index=wineventlog
 
 **SPL Query on Splunk:**
 
-![T1059.001 SPL](images/T1059_3.png)
+![T1059.001 SPL](images/T1059.001SPL.png)
 
 **Detected Events:**
 
-![T1059.001 Result](images/T1059_2.png)
+![T1059.001 Result](images/T1059.001Result.png)
 
 **Explanation — Sysmon Event ID:**
 
