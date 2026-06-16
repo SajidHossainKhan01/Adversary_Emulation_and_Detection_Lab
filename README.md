@@ -590,7 +590,7 @@ Invoke-AtomicTest T1003.001 -ShowDetailsBrief
 Invoke-AtomicTest T1003.001 -TestNumbers 1
 ```
 
-![T1003.001 Attack](images/T1003_ART.png)
+![T1003.001 Attack](images/T1003.001Attack.png)
 
 **SPL Query:**
 
