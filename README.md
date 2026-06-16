@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🛡️ Adversary Emulation & Detection Lab
 
 **Course:** CSE 802 — Information Security & Cryptography  
