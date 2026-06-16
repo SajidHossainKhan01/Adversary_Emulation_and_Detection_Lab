@@ -1,5 +1,5 @@
 <div align="center">
-
+    
 # 🛡️ Adversary Emulation & Detection Lab
 
 **Course:** CSE 802 — Information Security & Cryptography  
@@ -632,11 +632,7 @@ index=wineventlog (
 
 **SPL Query on Splunk:**
 
-![T1003.001 SPL](images/T1003_2.png)
-
-**Detected Events:**
-
-![T1003.001 Result](images/T1003_1.png)
+![T1003.001 SPL](images/T1003.001SPL.png)
 
 **Explanation — Sysmon Event ID:**
 
