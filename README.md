@@ -708,7 +708,7 @@ index=wineventlog
 
 **Detected Events:**
 
-![T1059.001 Result](images/T1059_2.png)
+![T1059.001 Result](images/T1059.001Result.png)
 
 **Explanation — Sysmon Event ID:**
 
