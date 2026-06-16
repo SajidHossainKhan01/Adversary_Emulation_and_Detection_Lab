@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1919" height="950" alt="T1003 001SPL" src="https://github.com/user-attachments/assets/9cfacf01-ba1f-4964-a0b2-7aa3bfc7243a" /><div align="center">
 
 # 🛡️ Adversary Emulation & Detection Lab
 
@@ -632,11 +632,7 @@ index=wineventlog (
 
 **SPL Query on Splunk:**
 
-![T1003.001 SPL](images/T1003_2.png)
-
-**Detected Events:**
-
-![T1003.001 Result](images/T1003_1.png)
+![T1003.001 SPL](images/T1003.001SPL.png)
 
 **Explanation — Sysmon Event ID:**
 
