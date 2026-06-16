@@ -481,7 +481,7 @@ index=wineventlog (EventCode=4698 OR EventCode=106 OR EventCode=1 OR EventCode=4
 
 **SPL Query on Splunk:**
 
-![T1053.005 SPL](images/T1053_3.png)
+![T1053.005 SPL](images/T1053.005SPL.png)
 
 **Detected Events:**
 
